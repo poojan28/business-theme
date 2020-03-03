@@ -48,47 +48,141 @@
                         </div>
                         <div class="theme-navigation-bar">
                             <nav class="theme-nav-bar">
-                                <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li class="menu-item-with-children"><a href="#">Basic</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="#">HTML</a></li>
-                                        <li><a href="#">CSS</a></li>
-                                        <li><a href="#">JavaScript</a></li>
-                                    </ul>        
+                                <!-- Menu Toggle btn-->
+                                <div class="menu-toggle">
+                                    <h3>Menu</h3>
+                                    <button type="button" id="menu-btn">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <!-- Responsive Menu Structure-->
+                                <!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
+                                <div class="navigation-bar">
+                                    <ul id="respMenu" class=" menu" data-menu-style="horizontal">
+                                        <li class="menu-item">
+                                        <a href="javascript:;">
+                                            <span class="title">Home</span>
+                                        </a>
                                     </li>
-                                    <li class="menu-item-with-children"><a href="#">Blog</a>
-
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="javascript:;">
+                                            <span class="title">About Us</span>
+                                    
+                        
+                                        </a>
+                                        <!-- Level Two-->
                                         <ul class="sub-menu">
-                                        <li><a href="#">PHP</a></li>
-                                        <li><a href="#">Node JS</a></li>
-                                        <li class="menu-item-with-children"><a href="#">Advance JS</a>
-
-                                            <ul class="sub-menu">
-                                            <li><a href="#">Angular</a></li>
-                                            <li><a href="#">VUE</a></li>
-                                            <li class="menu-item-with-children"><a href="#">React</a>
-                                                
-                                                <ul class="sub-menu">
-                                                    <li><a href="#">React Native</a></li>
-                                                    <li><a href="#">React JS</a></li>
-                                                    <li><a href="#">Material Design</a></li>
-                                                </ul>
+                                            <li class="menu-item">
+                                                <a href="#">Sub Item One</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="#">Sub Item Two</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="#">Sub Item Three</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="#">Sub Item Four</a>
                                             </li>
                                         </ul>
-                                        </li>
-                                    </ul>
                                     </li>
-                                    <li class="menu-item-with-children"><a href="#">Contact</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="#">Photoshop</a></li>
-                                        <li><a href="#">Illustrator</a></li>
-                                        <li><a href="#">Adobe XD</a></li>
-                                    </ul>  
+                        
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="javascript:;">
+                                            <span class="title">4 Level Menu</span>
+                                    
+                                        </a>
+                                        <!-- Level Two-->
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="javascript:;">
+                                                    Sub Item One
+                                                </a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="#">
+                                                    Sub Item Two
+                                                </a>
+                                            </li>
+                                            <li class="menu-item menu-item-has-children">
+                                                <a href="javascript:;">
+                                                    Sub Item Three
+                                                </a>
+                                                <!-- Level Three-->
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item"><a href="#"><i class="fa fa-user" aria-hidden="true"></i>Sub Item Link 1</a></li>
+                                                    <li class="menu-item menu-item-has-children">
+                                                        <a href="javascript:;">
+                                                            <i class="fa fa-diamond" aria-hidden="true"></i>Sub Item Link 2</a>
+                                                        <!-- Level Four-->
+                                                        <ul class="sub-menu">
+                                                            <li class="menu-item"><a href="#"><i class="fa fa-trash" aria-hidden="true"></i>Sub Item Link 1</a></li>
+                                                            <li class="menu-item"><a href="#"><i class="fa fa-dashcube" aria-hidden="true"></i>Sub Item Link 2</a></li>
+                                                            <li class="menu-item"><a href="#"><i class="fa fa-dropbox" aria-hidden="true"></i>Sub Item Link 3</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="menu-item"><a href="#"><i class="fa fa-user" aria-hidden="true"></i>Sub Item Link 3</a></li>
+                                                </ul>
+                                            </li>
+                        
+                                            <li class="menu-item">
+                                                <a href="#">
+                                                    Sub Item Four
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </li>
-                                    <li><a href="#">Buy Now</a></li>
-                                    <li><a href="#">Shop</a></li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a class="" href="javascript:;">
+                                            
+                                            <span class="title">Services</span>
+                                
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="#">Sub Item One
+                                                </a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="javascript:;">Sub Item Two
+                                                </a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item"><a href="#">Sub Item Link 1</a></li>
+                                                    <li class="menu-item"><a href="#">Sub Item Link 2</a></li>
+                                                    <li class="menu-item"><a href="#">Sub Item Link 3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item menu-item-has-children">
+                                                <a href="javascript:;">Sub Item Three
+                                                </a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item"><a href="#">Sub Item Link 1</a></li>
+                                                    <li class="menu-item"><a href="#">Sub Item Link 1</a></li>
+                                                    <li class="menu-item"><a href="#">Sub Item Link 1</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="#">Sub Item Four
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="javascript:;">
+                                           
+                                            <span class="title">Products</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item ">
+                                        <a href="javascript:;">
+                                           
+                                            <span class="title">Contact Us</span>
+                                        </a>
+                                    </li>
                                 </ul>
+                                </div>
                             </nav>
                             <div class="nav-account-section">
                                 <div class="search-widget">
@@ -246,6 +340,20 @@
     <script src="<?php echo my_theme_get_root_directory(); ?>/slick/slick.js" type="text/javascript" charset="utf-8"></script>
     <script src="<?php echo my_theme_get_root_directory(); ?>/js/custom.js"></script>
     <!--End of slick slider script   -->
+    <!--Scripts-->
+   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="<?php echo my_theme_get_root_directory(); ?>/js/ace-responsive-menu.js" type="text/javascript"></script>
+
+	<!--Plugin Initialization-->
+     <script type="text/javascript">
+         $(document).ready(function () {
+             $("#respMenu").aceResponsiveMenu({
+                 resizeWidth: '768', // Set the same in Media query
+                 animationSpeed: 'fast', //slow, medium, fast
+                 accoridonExpAll: false //Expands all the accordion menu on click
+             });
+         });
+	   </script>
 </body>
 
 </html>
